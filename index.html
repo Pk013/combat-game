@@ -8,6 +8,39 @@
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
 </head>
 <body>
+        <h1>Combat At It's Fullest!</h1>
+        <button type="submit"  onClick="refreshPage();">Restart the Slaughter!</button><br><br>
+      
+      
+        <select id="Ultra" onchange="run()">
+          <option value="">Pick One!</option>
+          <option value="Gladiator">Gladiator</option>
+          <option value="Legionare">Legionare</option>
+          <option value="Spartan">Spartan</option>
+          <option value="Arcane user">Arcane user</option>     
+      </select>
+      
+      <br>
+      
+      <input type="text" id="First" placeholder="Select from above!"><br>
+      
+      <H1>VS.<H1>
+      
+      <select id="Mega" onchange="running()">
+          <option value="">select your enemey!</option>
+          <option value="Orc">Orc</option>
+          <option value="Ogre">Ogre</option>
+          <option value="Golem">Golem</option>
+          <option value="Giant">Giant</option> 
+          <option value="Dragon">Dragon</option>     
+      </select>
+      
+      <br>
+      <input type="text" id="Second" placeholder="Select from above!"><br>
+      
+      <button id='Fight'>One Click and the Battle shall be Decided!</button>
+      <br>
+      
     <div id="message"></div>
     <script src="index.js"></script>
 </body>
